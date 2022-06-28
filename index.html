@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- This file was created on 25.01.2022 -->
+<head>
+
+    <title>19ME002-3IT85</title>
+    
+    <style>
+        .t1
+        {
+            border: 2px solid black;
+            border-radius: 15px;
+            box-shadow: 30px 30px 20px rgba(105, 105, 105, 0.35);
+        }
+    </style>
+
+</head>
+
+<body bgcolor="#c8fefd">
+    <form action="Registration-Form-Response.html" method="post">
+        <font size="4.5">
+            <table class="t1" cellspacing="" cellpadding="10" align="center" bgcolor="#ffe6cc">
+                <caption>
+                    <font align="center" color="#2424ff">
+                        <h2> Registration Form</h2>
+                    </font><br><br>
+                </caption>
+                <tr>
+                    <th align="left"><label for="user1">User id:</label></th>
+                    <td><input type="text" name="MyUser" id="user1" placeholder="Enter your User id" size="40px"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="name1">Name:</label></th>
+                    <td><input type="text" name="MyName" id="name1" placeholder="Enter your Name" size="40px"></td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="email1">Email:</label></th>
+                    <td><input type="email" name="MyEmail" id="email1" placeholder="Enter valid Email id" size="40px">
+                    </td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="mobile1">Mobile No: &nbsp;&nbsp;&nbsp;</label></th>
+                    <td><input type="text" name="MyMobile" id="mobile1" size="40" placeholder="Enter valid Mobile no." size="40px" maxlength="10">
+                    </td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="address1">Address:</label></th>
+                    <td><textarea name="MyAddress" id="address1" cols="38" rows="5" placeholder="Message:"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="country1">Country:</label></th>
+                    <td>
+                        <select name="country" id="country1" placeholder="Selecy your country">
+                            <option value="country1" disabled selected hidden>(Please select a country)</option>
+                            <option value="india">India</option>
+                            <option value="caneda">Canada</option>
+                            <option value="germany">Germany</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="left"><label for="gender">gender:</label></th>
+                    <td><input type="radio" name="gender" id="male" checked><label for="male">Male</label>
+                        <input type="radio" name="gender" id="female"><label for="female">Female
+                    </td></label>
+                </tr>
+                <tr>
+                    <th align="left"><label for="cv1">Upload CV:</label></th>
+                    <td><input type="file" name="MyFile" id="cv1"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="submit" value="Submit"> &nbsp; <input type="reset" value="Reset"></td>
+                </tr>
+        </font>
+    </form>
+    </table>
+</body>
+
+</html>
